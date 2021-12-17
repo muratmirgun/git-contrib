@@ -1,6 +1,8 @@
 # git-contrib
 
-Creates Simple Contribution Report For Git
+Creates simple contributors report for git.
+
+Useful for different branches then main.
 
 [![Go](https://github.com/ermanimer/git-contrib/actions/workflows/go.yml/badge.svg)](https://github.com/ermanimer/git-contrib/actions/workflows/go.yml)
 [![Go Report Card](https://goreportcard.com/badge/github.com/ermanimer/git-contrib)](https://goreportcard.com/report/github.com/ermanimer/git-contrib)
