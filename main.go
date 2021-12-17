@@ -43,10 +43,11 @@ func createReport() (map[string]int, error) {
 		return nil, err
 	}
 
-	err = tree.Files().ForEach(func(file *object.File) error {
+	tree.Files().ForEach(func(file *object.File) error {
 		blameResult, err := git.Blame(lastCommit, file.Name)
 		if err != nil {
-			return err
+			fmt.Printf("git blame failed for %s, %s\n", file.Name, err.Error())
+			return nil
 		}
 
 		for _, line := range blameResult.Lines {
