@@ -15,6 +15,7 @@ func main() {
 	report, err := createReport()
 	if err != nil {
 		fmt.Println(err.Error())
+		return
 	}
 
 	printReport(report)
