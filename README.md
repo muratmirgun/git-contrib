@@ -16,6 +16,12 @@ go install github.com/ermanimer/git-contrib@latest
 Run following command in a git repository.
 
 ```bash
+git contrib
+```
+
+or
+
+```go
 git-contrib
 ```
 
@@ -25,6 +31,6 @@ git-contrib
 +---------------------+------------+------------+
 | author              | line count | percentage |
 +---------------------+------------+------------+
-| ermanimer@gmail.com |        268 |     100.00 |
+| ermanimer@gmail.com |        328 |     100.00 |
 +---------------------+------------+------------+
 ```
